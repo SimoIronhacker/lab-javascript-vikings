@@ -1,14 +1,71 @@
 // Soldier
-class Soldier {}
+class Soldier {
+  constructor(health, strenght) {
+    this.health = health
+    this.strenght = strenght
+  }
+  attack () {
+    return this.strength;
+  }
+  receiveDamage (thedamage) {
+
+     return `${thedamage}`
+  }
+};
+
 
 // Viking
-class Viking {}
+class Viking extends Soldier {
+  constructor(name, health, strenght) {
+    this.name = name
+    this.health = health
+    this.strenght = strenght
+  }
+
+  
+  receiveDamage (thedamage) {
+    this.health -= thedamage
+
+  return `${thedamage}`
+  } 
+  batlleCry() {
+  return "Odin Owns You All!" 
+  }
+}
+
 
 // Saxon
-class Saxon {}
+class Saxon extends Soldier {
+  this.health = health
+  this.strenght = strenght
+} 
+attack () {
+  return this.strength;
+}
+receiveDamage (thedamage) {
+  this.health -= thedamage 
+
+};
+
 
 // War
-class War {}
+class War {
+  constructor(addViking(), addSaxon(), vikingAttack(), saxonAttack(), showStatus()) {
+
+    // addViking()
+    // addSaxon()
+    // vikingAttack()
+    // saxonAttack()
+    // showStatus()
+
+    War () {
+      vikingArmy = 
+    }
+
+  }
+
+
+}
 
 
 
